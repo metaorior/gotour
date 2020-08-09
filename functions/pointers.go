@@ -18,6 +18,12 @@ func main() {
 	fmt.Println("p = &j is " , j)
 	*p = *p / 37 //divide j through the pointer
 	fmt.Println("the value of j is ", j) // see the new value of j 
-
+	
+	z := 6
+	var a int
+	for  a = 0; a < z; a++ {
+		fmt.Println(a)
+	}
+	
 
  }

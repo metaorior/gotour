@@ -19,4 +19,16 @@ func add(x, y int) int {
 
 func main() {
 	fmt.Println(add(42, 13))
+	doCheck()
+}
+
+func doCheck() {
+	checkElo(-132)
+}
+
+func checkElo(elo float32) {
+	if (elo < 0) {
+		fmt.Println("Hero has a negative elo!", elo)
+
+	}
 }

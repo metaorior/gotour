@@ -15,6 +15,8 @@ func main() {
 	fmt.Println(add(42, 13))
 
 	fmt.Println(mult(4, 37))
+
+	fmt.Prinln(divide(4, 2))
 }
 
 func divide(a int, b int) int {
