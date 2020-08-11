@@ -12,7 +12,7 @@ func split(sum int) (x,y int) {
 	return // same as return x,y
 }
 
-func main() {
+func main() { 
 	fmt.Println(split(17))
 	
 	fmt.Println(salarioPorEstado(1045))
